@@ -30,7 +30,7 @@ def wright_cat():
         list_of_cats.append(new_cat)
         wright_cat()
     if choice_wr_cat == 'Нет' or choice_wr_cat == 'нет':
-        print('Программа закрывается')
+        # print('Программа закрывается')
 
         # global list_of_fighters
         with open('save_cats', 'wb') as new_wr:
@@ -42,5 +42,5 @@ def wright_cat():
         wright_cat()
 
 
-wright_cat()
+# wright_cat()
 
